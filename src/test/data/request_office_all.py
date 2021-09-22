@@ -1,0 +1,87 @@
+
+REQUEST_OFFICE_ALL = {
+    'resource': '/api/v1/terrain/{id}',
+    'path': '/api/v1/terrain/1',
+    'httpMethod': 'PATCH',
+    'headers': {
+        'Accept': '*/*',
+        'x-authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImNhcmxvc21AY29kc3Rlci5teCIsInJvbCI6InBlcml0byIsImlzcyI6ImF2YWx1b2RpZ2l0YWwifQ._E_Al2kW2rvzxCuqcReSex5OhyZRMyL4-LJg-AFJwXI',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'CloudFront-Forwarded-Proto': 'https',
+        'CloudFront-Is-Desktop-Viewer': 'true',
+        'CloudFront-Is-Mobile-Viewer': 'false',
+        'CloudFront-Is-SmartTV-Viewer': 'false',
+        'CloudFront-Is-Tablet-Viewer': 'false',
+        'CloudFront-Viewer-Country': 'MX',
+        'Content-Type': 'application/json',
+        'Host': '3wln0uz0od.execute-api.us-east-1.amazonaws.com',
+        'Postman-Token': 'ef9d0141-b142-4aea-a789-925f8112836c',
+        'User-Agent': 'PostmanRuntime/7.26.8',
+        'Via': '1.1 93abb747f20d61832393646c08c3498f.cloudfront.net (CloudFront)',
+        'X-Amz-Cf-Id': 'A8cByaO1sVrc-wl46kHPUKib9P2DF4_rzmbF8oTSRJvk95_uq0Gq_w==',
+        'X-Amzn-Trace-Id': 'Root=1-5faf5823-3c2fb461604516941f0a147a',
+        'X-Forwarded-For': '187.187.230.90, 130.176.67.139',
+        'X-Forwarded-Port': '443',
+        'X-Forwarded-Proto': 'https'
+    },
+    'multiValueHeaders': {
+        'Accept': ['*/*'],
+        'Accept-Encoding': ['gzip, deflate, br'],
+        'CloudFront-Forwarded-Proto': ['https'],
+        'CloudFront-Is-Desktop-Viewer': ['true'],
+        'CloudFront-Is-Mobile-Viewer': ['false'],
+        'CloudFront-Is-SmartTV-Viewer': ['false'],
+        'CloudFront-Is-Tablet-Viewer': ['false'],
+        'CloudFront-Viewer-Country': ['MX'],
+        'Content-Type': ['application/json'],
+        'Host': ['3wln0uz0od.execute-api.us-east-1.amazonaws.com'],
+        'Postman-Token': ['ef9d0141-b142-4aea-a789-925f8112836c'],
+        'User-Agent': ['PostmanRuntime/7.26.8'],
+        'Via': ['1.1 93abb747f20d61832393646c08c3498f.cloudfront.net (CloudFront)'],
+        'X-Amz-Cf-Id': ['A8cByaO1sVrc-wl46kHPUKib9P2DF4_rzmbF8oTSRJvk95_uq0Gq_w=='],
+        'X-Amzn-Trace-Id': ['Root=1-5faf5823-3c2fb461604516941f0a147a'],
+        'X-Forwarded-For': ['187.187.230.90, 130.176.67.139'],
+        'X-Forwarded-Port': ['443'],
+        'X-Forwarded-Proto': ['https']
+    },
+    'queryStringParameters': {
+        'name': "15JDH"
+    },
+    'multiValueQueryStringParameters': None,
+    'pathParameters': {
+        'id': 'IK2123'
+    },
+    'stageVariables': None,
+    'requestContext': {
+        'resourceId': '7ip8lr',
+        'resourcePath': '/api/v1/property/{id}',
+        'httpMethod': 'PATCH',
+        'extendedRequestId': 'V-q1kFP_oAMFfHg=',
+        'requestTime': '14/Nov/2020:04:08:03 +0000',
+        'path': '/test/api/v1/property/1',
+        'accountId': '428641380606',
+        'protocol': 'HTTP/1.1',
+        'stage': 'test',
+        'domainPrefix': '3wln0uz0od',
+        'requestTimeEpoch': 1605326883503,
+        'requestId': '1a7c2e3d-e2a1-43be-a894-6e60bf53af1f',
+        'identity': {
+            'cognitoIdentityPoolId': None,
+            'accountId': None,
+            'cognitoIdentityId': None,
+            'caller': None,
+            'sourceIp': '187.187.230.90',
+            'principalOrgId': None,
+            'accessKey': None,
+            'cognitoAuthenticationType': None,
+            'cognitoAuthenticationProvider': None,
+            'userArn': None,
+            'userAgent': 'PostmanRuntime/7.26.8',
+            'user': None
+        },
+        'domainName': '3wln0uz0od.execute-api.us-east-1.amazonaws.com',
+        'apiId': '3wln0uz0od'
+    },
+    'body': '{"name": "Javier Montes", "company": "ICAVE"}',
+    'isBase64Encoded': False
+}

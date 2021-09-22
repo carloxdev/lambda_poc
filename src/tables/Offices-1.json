@@ -1,0 +1,388 @@
+{
+    "Offices": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "1"
+                    },
+                    "name": {
+                        "S": "BTS GROUP - LAREDO,TX. (WHSE #1)"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "LA1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "BTS"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "2"
+                    },
+                    "name": {
+                        "S": "BTS GROUP - LAREDO,TX. (WHSE #2)"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "LA2"
+                    },
+                    "reference_prefix_2": {
+                        "S": "BTS"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "3"
+                    },
+                    "name": {
+                        "S": "BTS GROUP - EL PASO, TX."
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "EP1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "BTS"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "4"
+                    },
+                    "name": {
+                        "S": "BTS GROUP - NOGALES, AZ."
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "NO1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "BTS"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "5"
+                    },
+                    "name": {
+                        "S": "BTS GROUP - LAREDO,TX. (WHSE #3)"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "LA3"
+                    },
+                    "reference_prefix_2": {
+                        "S": "BTS"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "6"
+                    },
+                    "name": {
+                        "S": "NAD-NLD/FORD"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "NL2"
+                    },
+                    "reference_prefix_2": {
+                        "S": "FRD"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "7"
+                    },
+                    "name": {
+                        "S": "AXEL BROKERS INC."
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "AXL"
+                    },
+                    "reference_prefix_2": {
+                        "S": "AXE"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "8"
+                    },
+                    "name": {
+                        "S": "FASTCO INC."
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "FAS"
+                    },
+                    "reference_prefix_2": {
+                        "S": "FAS"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "9"
+                    },
+                    "name": {
+                        "S": "NAD-NLD/OE"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "NL3"
+                    },
+                    "reference_prefix_2": {
+                        "S": "OEP"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "11"
+                    },
+                    "name": {
+                        "S": "NAD-NLD/CAN"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "NL1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "CAN"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "12"
+                    },
+                    "name": {
+                        "S": "NAD-NOGALES"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "NO2"
+                    },
+                    "reference_prefix_2": {
+                        "S": "NOG"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "13"
+                    },
+                    "name": {
+                        "S": "NAD-CD JUAREZ"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "CJ1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "CDJ"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "14"
+                    },
+                    "name": {
+                        "S": "NAD-PIEDRAS NEGRAS"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "PN1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "NPN"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "15"
+                    },
+                    "name": {
+                        "S": "NAD-CHIHUAHUA"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "CH1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "NCH"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "17"
+                    },
+                    "name": {
+                        "S": "NAD-VERACRUZ"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "VR1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "VER"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "18"
+                    },
+                    "name": {
+                        "S": "NAD-QUERETARO"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "QR1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "QRO"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "10"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+boto3==1.18.8
+pymysql
+sqlalchemy<1.4
+greenlet<1.1.0
+sqlalchemy-aurora-data-api
+python-dotenv
+sqlalchemy-pagination
+pyyaml==5.3

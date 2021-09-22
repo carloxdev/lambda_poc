@@ -1,0 +1,508 @@
+{
+    "Offices": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "19"
+                    },
+                    "name": {
+                        "S": "NAD-ALTAMIRA"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "AL1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "ALT"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "20"
+                    },
+                    "name": {
+                        "S": "NAD-ENSENADA"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "EN1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "ENS"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "21"
+                    },
+                    "name": {
+                        "S": "NAD-NLD/FERROCARRIL"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "NL4"
+                    },
+                    "reference_prefix_2": {
+                        "S": "FER"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "22"
+                    },
+                    "name": {
+                        "S": "HONDA"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "NGL"
+                    },
+                    "reference_prefix_2": {
+                        "S": "NAD"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "23"
+                    },
+                    "name": {
+                        "S": "MAHLE"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "MAH"
+                    },
+                    "reference_prefix_2": {
+                        "S": "NAD"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "24"
+                    },
+                    "name": {
+                        "S": "NAD-AICM"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "DF1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "MEX"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "25"
+                    },
+                    "name": {
+                        "S": "NAD-GUADALAJARA"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "GD1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "GDL"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "26"
+                    },
+                    "name": {
+                        "S": "NAD-MANZANILLO"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "MZ1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "MZO"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "27"
+                    },
+                    "name": {
+                        "S": "NAD-LAZARO CARDENAS"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "LC1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "LZC"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "28"
+                    },
+                    "name": {
+                        "S": "NAD-MONTERREY"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "MT1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "MTY"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "29"
+                    },
+                    "name": {
+                        "S": "NAD-CD HIDALGO"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "HG1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "HGO"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "55"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "30"
+                    },
+                    "name": {
+                        "S": "NAD-MERIDA"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "ME1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "MER"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "42"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "31"
+                    },
+                    "name": {
+                        "S": "NAD-MAZATLAN"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "MA1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "MAZ"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "10"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "32"
+                    },
+                    "name": {
+                        "S": "BTS GROUP - HIDALGO/PHARR/MCALLEN,TX."
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "HPM"
+                    },
+                    "reference_prefix_2": {
+                        "S": "BTS"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "53"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "33"
+                    },
+                    "name": {
+                        "S": "NAD-REYNOSA"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "RY1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "NAD"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "53"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "34"
+                    },
+                    "name": {
+                        "S": "NAD-TIJUANA"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": ""
+                    },
+                    "reference_prefix_2": {
+                        "S": ""
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "4"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "35"
+                    },
+                    "name": {
+                        "S": "NAD-NLD/AXEL"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "NL5"
+                    },
+                    "reference_prefix_2": {
+                        "S": "AXE"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "36"
+                    },
+                    "name": {
+                        "S": "NAD-NLD/FASTCO"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "NL6"
+                    },
+                    "reference_prefix_2": {
+                        "S": "FAS"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "37"
+                    },
+                    "name": {
+                        "S": "BTS GROUP - SAN YSIDRO, CA."
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "SY1"
+                    },
+                    "reference_prefix_2": {
+                        "S": "BTS"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "38"
+                    },
+                    "name": {
+                        "S": "NAD-NLD/LII"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "NL7"
+                    },
+                    "reference_prefix_2": {
+                        "S": "LII"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "39"
+                    },
+                    "name": {
+                        "S": "NAD-NLD/AUT"
+                    },
+                    "op_key": {
+                        "S": "BTS"
+                    },
+                    "reference_prefix_1": {
+                        "S": "NL8"
+                    },
+                    "reference_prefix_2": {
+                        "S": "AUT"
+                    },
+                    "petition_prevalidator_code": {
+                        "N": "11"
+                    }
+                }
+            }
+        }
+    ]
+}

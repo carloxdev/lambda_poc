@@ -1,0 +1,70 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Globals:
+  Function:
+    Handler: index.handler
+    Environment:
+      Variables:
+        BTS_APP_ENVIRONMENT: dev
+    Runtime: python3.7
+  Api:
+    Cors:
+      AllowHeaders: '''Content-Type,Authorization,authorization,X-Amz-Date,X-Api-Key,X-Amz-Security-Token'''
+      AllowOrigin: '''*'''
+      MaxAge: '''3600'''
+      AllowMethods: '''HEAD,OPTIONS,POST,GET,PUT,DELETE'''
+      AllowCredentials: '''false'''
+    GatewayResponses:
+      DEFAULT_4xx:
+        ResponseParameters:
+          Headers:
+            Access-Control-Allow-Headers: '''Content-Type,Authorization,authorization,X-Amz-Date,X-Api-Key,X-Amz-Security-Token'''
+            Access-Control-Allow-Origin: '''*'''
+            Access-Control-Allow-Methods: '''HEAD,OPTIONS,POST,GET,PUT,DELETE'''
+      DEFAULT_5xx:
+        ResponseParameters:
+          Headers:
+            Access-Control-Allow-Headers: '''Content-Type,Authorization,authorization,X-Amz-Date,X-Api-Key,X-Amz-Security-Token'''
+            Access-Control-Allow-Origin: '''*'''
+            Access-Control-Allow-Methods: '''HEAD,OPTIONS,POST,GET,PUT,DELETE'''
+Resources:
+  ApiGatewayApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: prod
+      Auth:
+        DefaultAuthorizer: MyCognitoAuthorizer
+        AddDefaultAuthorizerToCorsPreflight: false
+        Authorizers:
+          MyCognitoAuthorizer:
+            UserPoolArn: arn:aws:cognito-idp:us-east-1:771077711146:userpool/us-east-1_3eIgmBqwy
+  ClientListFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: s3://sczm-stack-bucket/34e0ac99260f78293f575c60f35a70bd
+      Handler: apps.client_app.client_list
+      Policies:
+      - AmazonDynamoDBFullAccess
+      Events:
+        ClientList:
+          Type: Api
+          Properties:
+            Path: /clients
+            Method: get
+            RestApiId:
+              Ref: ApiGatewayApi
+  ClientByIdFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: s3://sczm-stack-bucket/34e0ac99260f78293f575c60f35a70bd
+      Handler: apps.client_app.client_retrieve
+      Policies:
+      - AmazonDynamoDBFullAccess
+      Events:
+        ClientList:
+          Type: Api
+          Properties:
+            Path: /clients/{id}
+            Method: get
+            RestApiId:
+              Ref: ApiGatewayApi
